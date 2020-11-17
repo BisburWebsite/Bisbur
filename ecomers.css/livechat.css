@@ -1,0 +1,353 @@
+body{
+    font-family: sans-serif;
+}
+.chat_box{
+    width: 100%;
+    height: 100%;
+    background: snow;
+    border: 2px ;
+    position: sticky;
+    margin: 2px;
+}
+.header{
+    width: 99%;
+    height: 5%;
+    padding-top: 8px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    background: royalblue ;
+    padding-left: 2px;
+}
+.header a{
+    width: 25px;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: bold;
+    padding-left: 8px;
+}
+.header span{
+    width: 25px;
+    height: 100px;
+    color:black;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.content{
+    margin-left: 0px;
+}
+.member{
+    width: 25%;
+    height: 93%;;
+    border: 4.5px  solid silver;
+    float: left;
+    background:whitesmoke;
+}
+.member label{
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+.search input {
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 3px solid lightblue !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    box-shadow: none !important; 
+    padding-left: 5px;
+    width: 75%;
+
+}
+.search{
+    display: inline-flex;
+    width: 2%;
+    padding-bottom: 3px;
+}
+.search span i{
+    color: #fff;
+}
+.member a{
+    padding-left: 4px;
+}
+.member a img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.content_right{
+    float: left;
+    padding-left: 3px;
+    width: 48.7%;
+}
+.massege_box{
+    width: 149%;
+    height: 93%;
+    background: solid whitesmoke;  
+    border: 4.5px  solid silver;
+}
+.massege_show_box{
+    width: 100%;
+    height:92%;
+}
+.footer_box{
+    width: 100%;
+    height: 7%;
+    background: blue;
+    border: 3px wheat !important;
+    box-shadow: none !important;
+    padding-left: 2px;
+    padding-top: 6px;
+}
+.emoji_box{
+    background: lightblue;
+    width: 4%;
+    height: 35%;
+    border: 3px soli wheat !important;
+    border-top-left-radius: 100px !important;
+    border-bottom-left-radius: 100px !important;
+    border-top-right-radius: 100px !important;
+    border-bottom-right-radius: 100px !important;
+    box-shadow: none !important;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    float: left;
+}
+.emoji_box a{
+    color: blue;
+    cursor: pointer;
+    padding-top: 100%;
+    padding-left: 9%;
+}
+.emoji_box a:active{
+    color: cornflowerblue;
+}
+.emoji_box a:hover{
+    color: white;
+}
+.emoji_box a i{
+    padding-left: 6px;
+    padding-top: 3px;
+}
+.emty{
+    width: 1%;
+    height: 90%;
+    float: left;
+}
+.sent_box{
+    width: 90%;
+    height: 113%;
+    float: left;
+}
+.text_box{
+    width: 100%;
+}
+.type input{
+    width: 90%;
+    height: 100%;
+    float: left;
+    border: none;
+}
+.sent_btn{
+    width: 0%;
+}
+.sent_btn i{
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.sent_btn a{
+    color: lightblue;
+    cursor: pointer;
+    padding-top: 100%;
+    padding-left: 9%;
+}
+.sent_btn a:active{
+    color: red
+}
+.sent_btn a:hover{
+    color: white;
+}
+.search a i{
+    background: lightblue;
+    width: 20px;
+    height: 22px;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    box-shadow: none !important;
+}
+.search i{
+    padding-left: 0px;
+    padding-top: 8px;
+}
+.search a{
+    color: blue;
+    cursor: pointer;
+    padding-top: 0%;
+    padding-left: 0%;
+}
+.type{
+    background: red;
+    float: left;
+    width: 100%;
+    height: 90%;
+}
+.emoji{
+ float: left;
+ background: red;
+ width: 10%;
+ height: 100%;
+}
+@media only screen and (max-width: 980px)
+{
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .chat_box{
+    width: 100%;
+    height: 100%;
+    }
+    .header{
+        width: 99%;
+        height: 5%;
+
+    }
+    .header a{
+        width: 99%;
+        height: 5%;
+    }
+    .header span{
+        width: 25px;
+        height: 100px;
+    }
+    .content{
+        width: 102.3%;
+    }
+    .member{
+        width: 25%;
+        height: 93%;
+    }
+    .member label{
+        width: 109%;
+    }
+    .search input{
+        margin-top: 0px;
+        margin-left: 0px;
+        border: 3px solid black !important;
+        border-top-left-radius: 20px !important;
+        border-bottom-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+        border-bottom-right-radius: 20px !important;
+        box-shadow: none !important; 
+        padding-left: 5px;
+        width: 75%;
+    }
+    .search{
+        display: inline-flex;
+        width: -2%;
+        padding-bottom: 3px;
+    }
+    .search span i{
+        color: #fff;
+    }
+    .member a{
+        padding-left: 4px;
+    }
+    .member a img{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+    .content_right{
+        width: 49.8%;
+        height: 93%;
+    }
+    .massege_box{
+        width: 140%;
+        height: 100%;
+    }
+    .emoji_box{
+        background: lightblue;
+        width: 4%;
+        height: 20%;
+        border-top-left-radius: 100px !important;
+        border-bottom-left-radius: 100px !important;
+        border-top-right-radius: 100px !important;
+        border-bottom-right-radius: 100px !important;
+        box-shadow: none !important; 
+        padding-top: 6px;
+        padding-bottom: 15px;
+    }
+    .massege_show_box{
+        width: 100%;
+        height:95%;
+    }
+    .footer_box{
+        width: 100%;
+        height: 5%;
+        background: blue;
+        border: 3px wheat !important;
+        box-shadow: none !important; 
+        padding-left: 2px;
+        padding-top: 1px;
+    }
+    .emoji_box a{
+        color: #ffffff;
+        cursor: pointer;
+        padding-top: 100%;
+        padding-left: 20%;
+    }
+    .emoji_box a:hover{
+        color: lightblue;
+    }
+    .emty{
+        width: 1%;
+        height: 90%;
+        float: left;
+    }
+    .sent_box{
+        width: 61%;
+        height: 73%;
+        padding-left: 5px;
+        float: left;
+        padding-top: 0px;
+    }
+    .text_box input{
+        width: 147%;
+        height: 130%;
+        float: left;
+    }
+    .sent_btn{
+        width: 0%;
+        height: 73%;
+        float: left;
+        padding-left:0;
+    }
+    .sent_btn i{
+        padding: 4px;
+    }
+    .sent_btn i:hover{
+        color: lightseagreen;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
